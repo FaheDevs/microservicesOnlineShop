@@ -18,6 +18,10 @@ The Inventory Service plays a critical role in ensuring product availability. Cu
 
 The Notification Service is responsible for sending notifications to relevant parties. After an order is successfully placed, this service communicates with users to provide updates on order status, payment confirmation, and delivery information. It enhances customer communication and keeps them informed throughout the order fulfillment process.
 
+
+
+<img width="930" alt="image" src="https://github.com/FaheDevs/microservicesOnlineShop/assets/71198261/0111629a-7458-41e5-9cbd-0a38b4322bc4">
+
 ## Interactions and Communication
 
 These microservices interact with each other in both synchronous and asynchronous ways:
