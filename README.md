@@ -19,29 +19,15 @@ The Inventory Service plays a critical role in ensuring product availability. Cu
 The Notification Service is responsible for sending notifications to relevant parties. After an order is successfully placed, this service communicates with users to provide updates on order status, payment confirmation, and delivery information. It enhances customer communication and keeps them informed throughout the order fulfillment process.
 
 
-
-<img width="930" alt="image" src="https://github.com/FaheDevs/microservicesOnlineShop/assets/71198261/0111629a-7458-41e5-9cbd-0a38b4322bc4">
-
 ## Interactions and Communication
 
 These microservices interact with each other in both synchronous and asynchronous ways:
 
 - **Synchronous Communication:** Certain interactions require immediate responses. For instance, when a customer places an order, the Order Service might need to query the Inventory Service to ensure the products are available. Synchronous communication allows for real-time decision-making.
 
+- <img width="648" alt="image" src="https://github.com/FaheDevs/microservicesOnlineShop/assets/71198261/c3d9051c-3f64-4897-89f0-78aecd0e6a11">
+
+
 - **Asynchronous Communication:** Some interactions don't require immediate responses and can be handled in the background. For instance, once an order is successfully placed, the Notification Service can send out order confirmation emails or push notifications. This type of communication enhances system scalability and responsiveness.
 
-By employing a combination of synchronous and asynchronous communication, the microservices system optimizes performance, scalability, and user experience.
 
-## Getting Started
-
-To deploy and run these microservices, follow the instructions provided in each service's respective documentation. Make sure to set up appropriate network configurations to enable seamless communication between services. Additionally, ensure that the required databases and message brokers are correctly configured to support data storage and communication.
-
-Feel free to explore each service's codebase and documentation for further insights into their functionalities and integration details.
-
-## Contributions
-
-Contributions to this repository are welcome. If you identify any issues or have suggestions for improvements, please create a pull request or issue on the respective service's repository.
-
-Thank you for using our microservices to enhance your e-commerce platform! We're excited to have you on board.
-
-*Disclaimer: This README is a template and might need adjustments to match the specific details and technologies used in your project.*
