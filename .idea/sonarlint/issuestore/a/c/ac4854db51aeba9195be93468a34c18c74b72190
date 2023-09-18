@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìè—†8­óŞÊ¢1
+k
+java:S1128"IRemove this unused import 'com.FahDevs.inventoryservice.model.Inventory'.(©¿Àıÿÿÿÿ8ÙÛ¡™£1
+[
+java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ß–Ê³8ÚÛ¡™£1
